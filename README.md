@@ -5,6 +5,7 @@ Modern TUI (Terminal User Interface) editor for .po (Portable Object) translatio
 ![Poterm Demo](https://img.shields.io/badge/status-in%20development-blue)
 ![License](https://img.shields.io/badge/license-Apache%202.0-green)
 ![Rust](https://img.shields.io/badge/rust-1.70+-orange)
+[![Built With Ratatui](https://ratatui.rs/built-with-ratatui/badge.svg)](https://ratatui.rs/)
 
 ## Features
 
