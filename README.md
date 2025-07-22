@@ -31,12 +31,6 @@ cd poterm
 cargo install --path .
 ```
 
-### Using Cargo
-
-```bash
-cargo install poterm
-```
-
 ## Usage
 
 ### Basic Usage
