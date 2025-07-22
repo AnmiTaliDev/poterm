@@ -1,0 +1,24 @@
+[package]
+name = "poterm"
+version = "0.1.0"
+edition = "2021"
+authors = ["AnmiTaliDev <anmitali198@gmail.com>"]
+license = "Apache-2.0"
+description = "Modern TUI editor for .po translation files"
+homepage = "https://github.com/AnmiTaliDev/poterm"
+repository = "https://github.com/AnmiTaliDev/poterm"
+keywords = ["gettext", "po", "translation", "tui", "editor"]
+categories = ["command-line-utilities", "text-editors", "localization"]
+
+[dependencies]
+ratatui = "0.28"
+crossterm = "0.27"
+clap = { version = "4.4", features = ["derive"] }
+anyhow = "1.0"
+serde = { version = "1.0", features = ["derive"] }
+regex = "1.10"
+unicode-width = "0.1"
+chrono = { version = "0.4", features = ["serde"] }
+
+[dev-dependencies]
+tempfile = "3.0"
